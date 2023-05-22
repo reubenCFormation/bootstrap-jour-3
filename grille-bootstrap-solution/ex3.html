@@ -14,11 +14,17 @@
        -->
     <body>
        <!--
-        Creer 1 div.
-        1) Sur ecran en dessous de 576px nos divs prendront 100% de largeur de la page
-        2) Sur ecran entre 576px et 992px nos divs prendront 75% de largeur de la page
-        3) sur ecran au dessus de 992px nos divs prendront 50% de largeur de la page
+        Creer une div parente et trois divs enfants et mettez les divs enfant cote a cote
+        1) Tant que nous sommes sur un ecran en dessous de 992px nos divs feront 33% de largeur  chacune 
+        2) A partir du moment que nous sommes sur un ecran qui fait plus de 992px, nos divs feront 50% de largeur chacune mais notre premiere div va disparaitre (elle va disparaitre uniquement lors que notre ecran fait plus de 992px)
+        
        -->
+
+       <div class="row">
+         <div class="d-block d-lg-none bg-primary border border-dark col-4 "> je suis la premiere div</div>
+         <div class="bg-primary border border-dark col-4 col-lg-6"> je suis la deuxieme div</div>
+         <div class="bg-primary border border-dark col-4 col-lg-6"> je suis la troisieme div</div>
+       </div>
 
     </body>
 </html>
