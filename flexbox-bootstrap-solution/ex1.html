@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <!--
+            Tout d'abord pour pouvoir utiliser nos classes bootstrap, nous allons devoir utiliser le cdn bootstrap pour pouvoir le charger et ainsi nous allons pouvoir utiliser les classes bootstrap!
+        -->
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+            <link rel="stylesheet" href="style/style.css"/>
+    </head>
+       <!--
+         Si j'ai envie d'utiliser mes propres classes css, je peux preciser mon propre fichier css ici
+       -->
+    <body>
+       <!--
+        
+         Creer une div parente et 3 divs enfants. Chacune de nos divs auront une largeur de 25% 
+        1) Mettez ces trois divs cote a cote au debut de l'ecran (justify-content:flex-start) 
+        2) Mettez ces trois divs cote a cote au centre de votre ecran (justify-content:center)
+        3) Mettez ces trois divs a la fin de votre ecran (justify-content:end)
+        
+       -->
+
+       <h2> Question 1</h2>
+       <div class="d-flex">
+            <div class="col-3 bg-primary border border-dark"> Je suis la premiere div</div>
+            <div class="col-3 bg-primary border border-dark"> Je suis la deuxieme div</div>
+            <div class="col-3 bg-primary border border-dark"> Je suis la troisieme div</div>
+       </div>
+       <h2> Question 2</h2>
+       <div class="d-flex justify-content-center">
+            <div class="col-3 bg-primary border border-dark"> Je suis la premiere div</div>
+            <div class="col-3 bg-primary border border-dark"> Je suis la deuxieme div</div>
+            <div class="col-3 bg-primary border border-dark"> Je suis la troisieme div</div>
+       </div>
+
+       <h2> Question 3</h2>
+
+       <div class="d-flex justify-content-end">
+            <div class="col-3 bg-primary border border-dark"> Je suis la premiere div</div>
+            <div class="col-3 bg-primary border border-dark"> Je suis la deuxieme div</div>
+            <div class="col-3 bg-primary border border-dark"> Je suis la troisieme div</div>
+       </div>
+
+    </body>
+</html>
