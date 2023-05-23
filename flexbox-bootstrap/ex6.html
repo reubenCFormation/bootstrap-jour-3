@@ -14,17 +14,19 @@
        -->
     <body>
        <!--
-        Creer une div parente et trois divs enfants et mettez les divs enfant cote a cote
-        1) Tant que nous sommes sur un ecran en dessous de 992px nos divs feront 33% de largeur  chacune 
-        2) A partir du moment que nous sommes sur un ecran qui fait plus de 992px, nos divs feront 50% de largeur chacune mais notre premiere div va disparaitre (elle va disparaitre uniquement lors que notre ecran fait plus de 992px)
+        
+        Avec notre flexbox, ecrivez 4 divs 
+        1)Lors que nous sommes sur un ecran qui fait moins de 576px, nos divs se mettront les unes au dessus des autres et prendront chacune 75% de largeur 
+        2) Lors que nous sommes sur un ecran entre 576px et 992px, nos divs se mettront cote a cote sur deux lignes. Chaque div prendra 50% de la largeur de l'ecran 
+        3) Lors que nous somme sur un ecran qui fait plus de 992px, nos divs feront chacune 42% de l'ecran qui corredpond a 5 unités sur 12. Nous aurons toujours deux lignes et chaque ligne consistera de deux divs
+        
+       
         
        -->
 
-       <div class="row">
-         <div class="d-lg-none bg-primary border border-dark col-4 col-lg-6"> je suis la premiere div</div>
-         <div class="bg-primary border border-dark col-4 col-lg-6"> je suis la deuxieme div</div>
-         <div class="bg-primary border border-dark col-4 col-lg-6"> je suis la troisieme div</div>
-       </div>
+   
+
+
 
     </body>
 </html>
